@@ -1,0 +1,19 @@
+G28 ; home all axes
+
+; include G29 to autolevel REMOVE AS NEEDED
+
+M355 S1;
+
+; include M141 S90 to turn chamber to 90C MODIFY OR REMOVE as needed
+
+M300 S440 P5000;
+
+G92 E0 ; set current extruder position as 0 so that E15 below makes sense
+
+G1 X10 Y-100 Z0.2 F2400.0 ; move to just on the bed
+
+G1 X10 Y70 E15 F1200.000 ; extrude a line of filament along the right edge of the bed
+
+G92 E0 ; set E to 0 again because the slicer's next extrusion is relative to this
+
+T0;
