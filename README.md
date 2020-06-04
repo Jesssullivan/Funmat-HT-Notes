@@ -3,7 +3,7 @@
 
 ***a WIP @ the D&M Makerspace***
 
-*or, skip ahead and declare war on small volume thermoplastics and win back months worth of free time (and also pass go, collect $200, etc etc)*
+*or, skip ahead and declare war on small volume thermoplastics and win back oodles of free time (and also pass go, collect $200, etc etc)*
 
 
 
