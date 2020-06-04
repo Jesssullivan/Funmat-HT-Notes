@@ -11,8 +11,8 @@ The core of most of our Funmat HT struggles stem from the poor location and qual
 
  It is pretty much a clone of a clone of a mk8 direct drive unit, complete with a standard 11mm copper hobb (~10.6* mm usable diameter).  The extruder assembly is directly above the v6 standard hotend (it uses a nice pt100 type optocoupler instead of the sheathed thermistor usually seen on lower temperature machines though, still all within e3d spec) coupled together with a bit of PEEK tube.
 
- All "regular" filaments including Nylons and Polcarbonates inevitably soften (even just a tiny can destroy a print!) at the exruder gear after a few dozen layers or so, not helped by the fantastically well insulated and heated chamber.  This results in filament getting chewed up / jammed in the extruder assembly / uneven / lumpy extrusion / filament puddling on the hobb....
- 
+ All "regular" filaments including Nylons and Polcarbonates inevitably soften (even just a tiny can destroy a print!) at the exruder gear after a few dozen layers or so, not helped by the fantastically well insulated and heated chamber.  This results in filament getting chewed up / jammed in the extruder assembly / uneven / lumpy extrusion / filament puddling on the hobb --> clogged extuder --> clogged hotend.
+
  The extruder assembly is devoid of any cooling or fans (or even just a breeze), and the hobb itself can get quite hot (it's copper!) in conjunction with the high amperage, high accuracy microstepping (1/16+) stressing the extruder stepper one can expect from this machine.  
 
 As a result, here are some observations when printing with the stock hardware and most materials floating around the makerspace:
